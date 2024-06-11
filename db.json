@@ -1,0 +1,15 @@
+{
+    "gender":[
+        { "id":1, "name":"Male"},
+        { "id":2, "name":"Woman"}
+    ],
+    "nationality":[
+        { "id":1, "name":"Japan" },
+        { "id":2, "name":"Chinese" },
+        { "id":3, "name":"Brazilian" }
+    ],
+    "santosDorados":[
+        { "id":1, "name":"Mu", "age":20, "gender_id":1, "birth":"27/3/1969","nationality_id":2, "training":"Jamir, Himalayas, China","height":"182","weight":"72","blood":"A","master":"Shion","apprentice":"Kiki","attacks":"Athena Exclamation,Crystal Net,Crystal Wall,Stardust Revolution,Starlight Extinction" },
+        { "id":1, "name":"Aldebaran", "age":20, "gender_id":1, "birth":"8/5/1969","nationality_id":3, "training":"Brazil","height":"210","weight":"130","blood":"B","master":"Not revealed","apprentice":"Not revealed","attacks":"Great Horn" }
+    ]
+}
