@@ -8,8 +8,27 @@
         { "id":2, "name":"Chinese" },
         { "id":3, "name":"Brazilian" }
     ],
+    "category":[
+        { "id":1, "name":"Dorado" },
+        { "id":2, "name":"Plata" },
+        { "id":3, "name":"Bronce" }
+    ],
+    "Constellation":[
+        { "id":1, "name":"Aries" },
+        { "id":2, "name":"Taurus" },
+        { "id":3, "name":"Gemini" },
+        { "id":4, "name":"Cancer" },
+        { "id":5, "name":"Leo" },
+        { "id":6, "name":"Virgo" },
+        { "id":7, "name":"Libra" },
+        { "id":8, "name":"Scorpio" },
+        { "id":9, "name":"Sagittarius" },
+        { "id":10, "name":"Capricorn" },
+        { "id":11, "name":"Aquarius" },
+        { "id":12, "name":"Pisces" }
+    ],
     "santosDorados":[
-        { "id":1, "name":"Mu", "age":20, "gender_id":1, "birth":"27/3/1969","nationality_id":2, "training":"Jamir, Himalayas, China","height":"182","weight":"72","blood":"A","master":"Shion","apprentice":"Kiki","attacks":"Athena Exclamation,Crystal Net,Crystal Wall,Stardust Revolution,Starlight Extinction" },
-        { "id":1, "name":"Aldebaran", "age":20, "gender_id":1, "birth":"8/5/1969","nationality_id":3, "training":"Brazil","height":"210","weight":"130","blood":"B","master":"Not revealed","apprentice":"Not revealed","attacks":"Great Horn" }
+        { "id":1, "category_id":1,"constellation_id":1, "name":"Mu","lema":"No soy un Dios. No puedo revivir algo sin un sacrificio de por medio…", "age":20, "gender_id":1, "birth":"27/3/1969","nationality_id":2, "training":"Jamir, Himalayas, China","height":"182","weight":"72","blood":"A","master":"Shion","apprentice":"Kiki","attacks":"Athena Exclamation,Crystal Net,Crystal Wall,Stardust Revolution,Starlight Extinction","image":"/public/img/1.png" },
+        { "id":1, "category_id":1,"constellation_id":2, "name":"Aldebaran","lema":"Vivir con valentía es la única forma de morir sin remordimientos", "age":20, "gender_id":1, "birth":"8/5/1969","nationality_id":3, "training":"Brazil","height":"210","weight":"130","blood":"B","master":"Not revealed","apprentice":"Not revealed","attacks":"Great Horn","image":"/public/img/2.png" }
     ]
 }

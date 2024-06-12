@@ -14,11 +14,14 @@
     "api": "json-server --watch db.json --port 3002"
   },
   "dependencies": {
+    "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "json-server": "^1.0.0-beta.1",
+    "toastification": "^0.1.4",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vue-toastification": "^2.0.0-rc.5"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",

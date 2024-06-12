@@ -1,8 +1,22 @@
-<script setup lang="ts">
+<template>
+  <Encabezado />
+  <StarField />
+  <div class="container">
+      <RouterView />
+  </div>
+  <StarField />
+</template>
 
-import Form from '@/components/saintseiya/form.vue'
+
+<script setup lang="ts">
+import Encabezado from './components/saintseiya/encabezado.vue';
+import  StarField from '@/plugins/StarField.vue';
 </script>
 
-<template>
-<Form />
-</template>
+<style scoped>
+
+body{
+    background-color: #000;
+}
+
+</style>
