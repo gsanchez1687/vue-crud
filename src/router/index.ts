@@ -22,6 +22,11 @@ const router = createRouter({
       name: 'saintseiya-admin',
       component: () => import('../views/saintseiya/admin.vue')
     },
+    {
+      path: '/saintseiya/view/:id',
+      name: 'saintseiya-view',
+      component: () => import('../views/saintseiya/view.vue')
+    },
   ]
 })
 

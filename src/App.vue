@@ -4,7 +4,6 @@
   <div class="container">
       <RouterView />
   </div>
-  <StarField />
 </template>
 
 
